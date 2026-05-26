@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Assignment Card</title>
+
+
+<style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        font-family: Arial, sans-serif;
+    }
+
+
+    body{
+        background:#eef1f7;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        min-height:100vh;
+        padding:20px;
+    }
+
+
+    .card{
+        width:380px;
+        background:#fff;
+        border-radius:20px;
+        padding:30px;
+        box-shadow:0 4px 15px rgba(0,0,0,0.08);
+    }
+
+
+    .top{
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        margin-bottom:25px;
+    }
+
+
+    .number{
+        width:60px;
+        height:60px;
+        background:#eef3ff;
+        color:#2563eb;
+        font-size:32px;
+        font-weight:bold;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        border-radius:14px;
+    }
+
+
+    .status{
+        background:#eef3ff;
+        color:#2563eb;
+        padding:10px 18px;
+        border-radius:25px;
+        font-weight:bold;
+        font-size:14px;
+    }
+
+
+    .date{
+        color:#666;
+        margin-bottom:15px;
+        font-size:18px;
+    }
+
+
+    .date b{
+        color:#111;
+    }
+
+
+    .overdue{
+        display:inline-block;
+        background:#ffe5e5;
+        color:#b91c1c;
+        padding:10px 18px;
+        border-radius:18px;
+        font-weight:bold;
+        margin-bottom:25px;
+    }
+
+
+    hr{
+        border:none;
+        border-top:1px dashed #ddd;
+        margin-bottom:30px;
+    }
+
+
+    h1{
+        font-size:38px;
+        line-height:1.2;
+        color:#111827;
+        margin-bottom:20px;
+    }
+
+
+    .desc{
+        color:#4b5563;
+        line-height:1.8;
+        font-size:20px;
+        margin-bottom:25px;
+    }
+
+
+    .feature-title{
+        color:#2563eb;
+        font-size:28px;
+        font-weight:bold;
+        margin-bottom:15px;
+    }
+
+
+    ul{
+        margin-left:28px;
+        margin-bottom:30px;
+    }
+
+
+    ul li{
+        margin-bottom:15px;
+        color:#4b5563;
+        font-size:20px;
+        line-height:1.6;
+    }
+
+
+    .outcome-title{
+        color:#10b981;
+        font-size:28px;
+        font-weight:bold;
+        margin-bottom:12px;
+    }
+
+
+    .outcome{
+        color:#4b5563;
+        line-height:1.8;
+        font-size:20px;
+        margin-bottom:35px;
+    }
+
+
+    .btn{
+        display:block;
+        width:220px;
+        margin:0 auto;
+        text-align:center;
+        background:#2563eb;
+        color:#fff;
+        text-decoration:none;
+        padding:18px;
+        border-radius:15px;
+        font-size:24px;
+        font-weight:bold;
+        transition:0.3s;
+    }
+
+
+    .btn:hover{
+        background:#1d4ed8;
+    }
+
+
+    /* Responsive */
+
+
+    @media(max-width:500px){
+        .card{
+            width:100%;
+            padding:22px;
+        }
+
+
+        h1{
+            font-size:30px;
+        }
+
+
+        .desc,
+        ul li,
+        .outcome{
+            font-size:18px;
+        }
+
+
+        .feature-title,
+        .outcome-title{
+            font-size:24px;
+        }
+
+
+        .btn{
+            width:100%;
+            font-size:20px;
+        }
+    }
+
+
+</style>
+</head>
+
+
+<body>
+
+
+<div class="card">
+
+
+    <div class="top">
+        <div class="number">2</div>
+        <div class="status">AVAILABLE</div>
+    </div>
+
+
+    <div class="date">
+        📅 Due Date: <b>15 May 2026</b>
+    </div>
+
+
+    <div class="overdue">
+        Overdue by 7 Days
+    </div>
+
+
+    <hr>
+
+
+    <h1>Advanced CSS3 & Responsive Architecture</h1>
+
+
+    <p class="desc">
+        Transform the semantic portfolio into a visually stunning, fully responsive design using advanced CSS3 properties and modern layout architectures.
+    </p>
+
+
+    <div class="feature-title">Key Features:</div>
+
+
+    <ul>
+        <li>Utilize CSS Grid for complex, two-dimensional page layouts</li>
+        <li>Employ Flexbox for localized component alignment</li>
+        <li>Implement mobile-first responsive media queries</li>
+        <li>Create custom CSS variables for a dynamic light/dark mode theme</li>
+    </ul>
+
+
+    <div class="outcome-title">Expected Outcome:</div>
+
+
+    <p class="outcome">
+        A pixel-perfect, highly responsive website that adapts flawlessly across all device screen sizes (mobile, tablet, desktop).
+    </p>
+
+
+    <a href="#" class="btn">Submit Work</a>
+
+
+</div>
+
+
+</body>
+</html>
