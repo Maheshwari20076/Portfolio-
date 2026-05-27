@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Assignment Card</title>
+
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, sans-serif;
+    }
+
+
+    body{
+      background:#eef0f5;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      min-height:100vh;
+    }
+
+
+    .card{
+      width:400px;
+      background:#fff;
+      border-radius:20px;
+      padding:25px;
+      box-shadow:0 4px 12px rgba(0,0,0,0.1);
+    }
+
+
+    .top{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      margin-bottom:25px;
+    }
+
+
+    .number{
+      width:60px;
+      height:60px;
+      background:#f1f5ff;
+      color:#2563eb;
+      font-size:32px;
+      font-weight:bold;
+      border-radius:15px;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+    }
+
+
+    .status{
+      background:#eef2ff;
+      color:#1e40af;
+      padding:10px 20px;
+      border-radius:25px;
+      font-weight:bold;
+      font-size:18px;
+    }
+
+
+    .date-row{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      margin-bottom:20px;
+      font-size:20px;
+      color:#555;
+    }
+
+
+    .days{
+      background:#d1fae5;
+      color:#047857;
+      padding:10px 18px;
+      border-radius:25px;
+      font-weight:bold;
+    }
+
+
+    hr{
+      border:none;
+      border-top:1px dashed #ddd;
+      margin:20px 0;
+    }
+
+
+    h1{
+      font-size:38px;
+      color:#111827;
+      margin-bottom:20px;
+      line-height:1.2;
+    }
+
+
+    .desc{
+      font-size:22px;
+      color:#444;
+      line-height:1.8;
+      margin-bottom:25px;
+    }
+
+
+    .section-title{
+      color:#2563eb;
+      font-size:28px;
+      font-weight:bold;
+      margin-bottom:15px;
+    }
+
+
+    ul{
+      margin-left:30px;
+      margin-bottom:25px;
+    }
+
+
+    ul li{
+      font-size:22px;
+      color:#555;
+      line-height:1.8;
+      margin-bottom:10px;
+    }
+
+
+    .outcome-title{
+      color:#10b981;
+      font-size:28px;
+      font-weight:bold;
+      margin-bottom:15px;
+    }
+
+
+    .outcome{
+      font-size:22px;
+      color:#555;
+      line-height:1.8;
+      margin-bottom:35px;
+    }
+
+
+    .btn{
+      display:block;
+      width:220px;
+      margin:0 auto;
+      background:#2563eb;
+      color:white;
+      text-align:center;
+      padding:18px;
+      border-radius:18px;
+      text-decoration:none;
+      font-size:28px;
+      font-weight:bold;
+      transition:0.3s;
+    }
+
+
+    .btn:hover{
+      background:#1d4ed8;
+    }
+  </style>
+</head>
+
+
+<body>
+
+
+  <div class="card">
+
+
+    <div class="top">
+      <div class="number">5</div>
+      <div class="status">AVAILABLE</div>
+    </div>
+
+
+    <div class="date-row">
+      <div>📅 Due Date: <b>31 May 2026</b></div>
+      <div class="days">6 Days Left</div>
+    </div>
+
+
+    <hr>
+
+
+    <h1>Full-Stack Deployment & Project Architecture</h1>
+
+
+    <p class="desc">
+      Combine all prior knowledge to build, optimize, and deploy a comprehensive
+      Web Development Capstone Project (e.g., an E-commerce product catalog).
+    </p>
+
+
+    <div class="section-title">Key Features:</div>
+
+
+    <ul>
+      <li>Architect a modular frontend application</li>
+      <li>Implement client-side routing for seamless navigation</li>
+      <li>Optimize assets (images, minified code) for maximum performance</li>
+      <li>Deploy the application live to a modern platform (Vercel, Netlify, or Render)</li>
+    </ul>
+
+
+    <div class="outcome-title">Expected Outcome:</div>
+
+
+    <p class="outcome">
+      A live, production-ready web application with a public URL that demonstrates
+      professional-grade web development capabilities.
+    </p>
+
+
+    <a href="#" class="btn">Submit Work</a>
+
+
+  </div>
+
+
+</body>
+</html>
